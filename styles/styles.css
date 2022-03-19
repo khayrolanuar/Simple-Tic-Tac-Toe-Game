@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: 'Open-Sans', sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: rgb(247, 239, 247);
+}
+
+#main-header {
+    src: url(/video/header-video.mkv);
+    /* background-color: rgb(140, 0, 255); */
+    color: white;
+    padding: 5rem 5%;
+    text-align: center;
+    overflow: hidden;
+    position: relative; /*This important to make video header*/
+    box-shadow: 0px 5px 8px rgb(44, 41, 44);  
+    align-items: center;
+}
+header h1 {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(140, 0, 255);
+    border: 1px solid rgb(140, 0, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+   background-color: transparent; 
+   border-color: transparent;
+   color: rgb(140, 0, 255);
+}
+
+.btn:hover {
+    background-color: rgb(79, 10, 190);
+    border-color: rgb(79, 10, 190);
+}
+
+.btn-alt:hover {
+    background-color: rgb(229, 197, 253);
+    border-color: transparent;
+}
+
+.my-logo img {
+    width: 300px;
+    height: 200px;
+    float: left;
+    top: 1.5em;
+    left: 3em;
+    overflow: auto;
+    position:absolute;
+}
+
+header .back-video{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: absolute; /*This Important*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+/* @media(min-width: 48rem){
+    .my-logo img {
+        width: 2rem;
+        height: 100px;
+    }
+
+} */
